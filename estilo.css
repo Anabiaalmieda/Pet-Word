@@ -1,0 +1,116 @@
+body, ul, li, p{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 1.2rem;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1e20;
+    /* height: 100%; */
+}
+
+.header img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.header p{
+    text-align: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.titulo{
+    width:100% ;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.menu li{
+    margin: 10px;
+}
+
+.menu li a{
+    display: inline-block;
+    width: 68px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: tomato;
+}
+
+.menu li a:hover{
+    background-color: #575353;
+    color: tomato;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: #ccc;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* align-items: flex-start;
+    align-content: flex-start; */
+    align-items: center;
+    align-content: center;
+}
+
+.item{
+    background-color: #575353;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+}
+
+.item img{
+    padding: 15px;
+    width: 250px;
+    height: 160px;
+}
+
+.item p{
+    text-align: center;
+}
+
+.botao{
+    text-align: right;
+}
+
+.cadrasto{
+    color: white;
+        text-align: center; 
+        font-family:  Verdana;
+            background: #575353;
+}
+
+.ong{
+    text-align: center;
+}
+
+.sobre{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pexels-bas-van-brandwijk-885013.jpg);
+} 

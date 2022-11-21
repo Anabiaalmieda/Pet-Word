@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pexels-bas-van-brandwijk-885013.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height:12% ;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row{
+   display: flex; 
+   height: 88%;
+   align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: #fff;
+    font-size:20px ;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    /* background-image: url(img/cavalo.jpg); */
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(img/girafa.jpg);  
+}
+
+.card2{
+    background-image: url(img/leopardo.jpg);  
+}
+
+.card3{
+    background-image: url(img/koala.jpg);  
+}
+
+.card4{
+    background-image: url(img/bufalo.jpg);  
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #000;
+    text-shadow: 0 0 10px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.card_1{
+    background: rgb(111, 105, 95);
+    width: 270px;
+    height: 400px; 
+    margin: 10px;
+    border-radius: 15px ;
+    
+}
+
+.card-image{
+    height: 150px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url(img/download\ \(3\).jpg);
+
+}
+
+.car-2{
+    background-image: url(img/download\ \(2\).jpg);
+
+}
+
+.car-3{
+    background-image: url(img/images\ \(4\).jpg);
+
+}
+
+.car-4{
+    background-image: url(img/images\ \(1\).jpg);
+
+}
+
+.car-5{
+    background-image: url(img/images\ \(3\).jpg);
+
+}
+
+.car-6{
+    background-image: url(img/download.jpg);
+
+}
+
+.safari{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pexels-bas-van-brandwijk-885013.jpg);
+}
+
+.card_1 p {
+    padding: 15px;
+}
+
+.conhecer h1{
+    margin: 50px 20px 30px 30px;
+    font-family: 'roboto';
+    font-size: 50px;
+    text-align: center;
+}
+
+.sobre{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pexels-bas-van-brandwijk-885013.jpg);
+} 
+
+.cadastro{
+    color: white;
+        text-align: center; 
+        font-family:  Verdana;
+            /* background: #baab77 ; */
+            margin-top: 50px;
+            margin-bottom: 50px;
+}
+
+form{
+    background-color: #baab77;
+}
+
+
